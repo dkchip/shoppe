@@ -18,24 +18,10 @@ html{
     line-height: 1.6rem;
     font-family: sans-serif;
     box-sizing: border-box;
+    display: block;
 }
 
 
-
-.grid{
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width{
-    width:100%
-}
-
-.grid__row{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .mg-20{
     margin: 20px 0;
@@ -252,3 +238,4 @@ html{
     color: var(--black-color);
     opacity: 0.6;
 }
+
